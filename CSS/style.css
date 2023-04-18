@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-size: calc(0.45em + 0.5vw) 
+}
+#conjunto-tienda{
+    display: flex;
+    border-style: solid;
+    border-width: 0.1em;
+    width: 95vw;
+    height: 99vh;
+    margin: auto;
+    background-color: rgb(233, 214, 190);
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+/* Estilo de la parte del expositor */
+#exposicion{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#expositor{
+    width: 40em;
+    height: 70%;
+    background-color: rgb(179, 81, 81);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Estilo de la parte de la cesta */
+
+.compra{    
+    width: 30%;
+    display: flex;
+
+}
+.cestaListado{
+    margin-top: 5em;
+}
+#cesta{
+    border-style: solid;
+    border-width: 0.15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#cestaCompra{
+    width: 25em;
+    margin-top: -3em;
+}
+#estadoCesta{
+    text-align: center;
+    margin-bottom: 0em;
+    height: 1em;
+}
+#ticketCompra{
+    border-bottom: solid;
+
+}
