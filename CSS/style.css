@@ -209,7 +209,7 @@ body{
     width: 1.5em;
     height: 1.5em;
     margin-left: 0.5em;
-    background-image: url(/images/cerrar.png);
+    background-image: url(./images/cerrar.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
