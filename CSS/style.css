@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-size: calc(0.45em + 0.5vw) 
 }
+
 #conjunto-tienda{
     display: flex;
     border-style: solid;
@@ -10,9 +11,6 @@ body{
     height: 99vh;
     margin: auto;
     background-color: rgb(233, 214, 190);
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 /* Estilo de la parte del expositor */
@@ -23,7 +21,6 @@ body{
     justify-content: center;
     align-items: center; 
 }
-
 #expositor{
     width: 40em;
     height: 70%;
@@ -33,17 +30,148 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
+.toldo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toldoSuperior{
+    width: 40em;   
+    border-right: 5em solid transparent;
+    border-left: 5em solid transparent;
+    border-top: 6em solid rgb(114, 65, 65);
+}
+.cenefa{
+    width: 52em;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    margin-top: -6em;
+}
+.bandaBlanca{
+    width: 3em;
+    background-color: white;
+    height: 5em;
+    border-bottom-left-radius:  50%;
+    border-bottom-right-radius: 50%;
+}
+.bandaRoja{
+    width: 3em;
+    background-color:rgb(238, 89, 89);
+    height: 5em;
+    border-bottom-left-radius:  50%;
+    border-bottom-right-radius: 50%;   
+}
+#cuerpo{
+    width: 40em;   
+    border-right: 6em solid transparent;
+    border-left: 6em solid transparent;
+    border-bottom: 6em solid rgb(247, 164, 70);
+}
+.frente{
+    width: 52em;
+    height: 2em;
+    background-color: rgb(196, 128, 72);
+}
+.limones{
+    width: 13em;
+    position: absolute;
+    margin-top: -3em;
+    margin-left: 2.2em;
+}
+.naranjas{
+    width: 13em;
+    position: absolute;
+    margin-top: -3em;
+    margin-left: 10.2em;
+}
+.peras{
+    width: 13em;
+    position: absolute;
+    margin-top: -3em;
+    margin-left: 18.2em;
+}
+.tomates{
+    width: 3em;
+    margin-left: -0.7em;
+}
+.manzanas{
+    width: 3.15em;
+    margin-left: -0.7em;
+}
+.aceitunas{
+    width: 3em;
+    margin-left: -0.7em;
+}
+#piramideTomates{
+    position: absolute;
+    margin-top: -5em;
+    margin-left: 4em;
+}
+#piramideManzanas{
+    position: absolute;
+    margin-top: -4.6em;
+    margin-left: 20em;
+}
+#piramideAceitunas{
+    position: absolute;
+    margin-top: -6.5em;
+    margin-left: 36em;
+}
+#piramideAceitunas >.filas{
+    margin-top: -0.4em;
+}
+#fila1{
+    margin-top: -1.7em;
+    margin-left: 1em;
+} 
+#fila2{
+    margin-top: -1.7em;
+    margin-left: 2em;
+}
+#fila3{
+    margin-top: -1.7em;
+    margin-left: 3.5em;
+}
+#fila4{
+    margin-top: -1.8em;
+    margin-left: 4.5em;
+}
+#fila5{
+    margin-top: -1em;
+    margin-left: 6em;
+}
+.letrero{
+   position: absolute;
+    background-color: black;
+    border-style: solid;
+    border-width: 0.2;
+    border-color: aliceblue;
+    width: 5em;
+    height: 3em;
+    border-radius: 30%;
+}
+#letreroPrecio1{
+    margin-left: 8em;
+    margin-top: 5em;
+}
+#letreroPrecio2{
+    margin-left: 24em;
+    margin-top: 5em;
+}
+#letreroPrecio3{
+    margin-left: 40em;
+    margin-top: 5em;
+}
+.precios{
+    text-align: center;
+    color: white;
+}
 
 /* Estilo de la parte de la cesta */
-
 .compra{    
     width: 30%;
     display: flex;
-
 }
 .cestaListado{
     margin-top: 5em;
