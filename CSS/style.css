@@ -221,3 +221,46 @@ body{
 .detalleProducto{
     margin-left: 3em;
 }
+
+/*Mediaquery*/
+@media (max-width: 1400px){
+    #cestaCompra{
+        width: 20em;
+        margin-top: -3em;
+    }
+    #expositor{
+        height: 60%;
+    }
+    .cestaListado{
+        margin-top: 13em;
+    }
+}
+@media (max-width: 1100px){
+    #conjunto-tienda{
+        flex-direction: column;
+    }
+    .exposicion{
+        width: 100%;
+        height: 70%;
+    }
+    #expositor{
+        height: 70%;
+    }
+    .cestaListado{
+        display: flex;
+        flex-direction: row;
+        margin-top: 18em;
+        margin: 0em;
+    }
+    .compra{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #listado{
+        margin-left: 1.5em;
+    }
+    #totales{
+        margin-left: -7em;
+    }
+}
