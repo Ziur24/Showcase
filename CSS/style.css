@@ -19,7 +19,7 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 #expositor{
     width: 40em;
@@ -209,7 +209,7 @@ body{
     width: 1.5em;
     height: 1.5em;
     margin-left: 0.5em;
-    background-image: url(./images/cerrar.png);
+    background-image: url(../images/cerrar.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -238,6 +238,7 @@ body{
 @media (max-width: 1100px){
     #conjunto-tienda{
         flex-direction: column;
+        align-items: center;
     }
     .exposicion{
         width: 100%;
